@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dcode Store</title>
+    <style>
+        * {
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="top-0 w-full fixed z-50">
+      <div class="flex bg-white/85 gap-3 items-center h-[10vh] justify-between border-b-2 shadow-md">
+        <div class="px-10 flex gap-2 justify-center items-center">
+            <img src="images/logo.png" class="h-16 rounded-full border-b-2">
+            <a href="index.html" class="text-3xl font-normal">DarulCode</a>
+        </div>
+        <div class="px-10 gap-10">
+            <a href="#hero" class="px-2 text-sm font-normal hover:text-white hover:bg-amber-500 hover:rounded-lg">home</a>
+            <a href="#about" class="px-2 text-sm font-normal hover:text-white hover:bg-amber-500 hover:rounded-lg">About</a>
+            <a href="#Sponsorships" class="px-2 text-sm font-normal hover:text-white hover:bg-amber-500 hover:rounded-lg">Sponsorships</a>
+        </div>
+      </div>
+    </header>
+    <!-- hero -->
+    <section id="hero" class="relative w-[100%] h-[60vh] flex justify-center items-center" style="background-image: url(images/hero.jpg); background-size: cover;">
+        <div class="absolute inset-0 bg-black opacity-30"></div>
+        <div class="flex-col justify-center items-center text-center relative z-10">
+            <div>
+                <h1 class="text-4xl font-normal text-white">
+                    <strong class="bg-gradient-to-r from-[#3333cc] to-[#dd4802] bg-clip-text text-transparent text-4xl inline-block">Learn</strong> Web Design and
+                </h1>
+                <h1 class="text-4xl font-normal text-white">How to Make Money</h1>
+                <h1 class="text-4xl font-normal text-white">
+                    With Creating <strong class="bg-gradient-to-r from-[#3333cc] to-[#dd4802] bg-clip-text text-transparent text-4xl inline-block">Website</strong>
+                </h1>
+            </div>
+            <div class="h-">
+
+            </div>
+            <div class="mt-5">
+                <button type="button" class="rounded-xl h-8 w-24 bg-gradient-to-r from-pink-500 to-[#f8b602] hover:from-teal-400 hover:to-[#3333cc] active:from-teal-500 active:to-[#1a1a75] transition-colors duration-200">
+                    <a href="" class="font-normal text-white">Join Now</a>
+                </button>
+            </div>
+        </div>
+    </section>
+        <article class="bg-white-600 scroll-mt-[10vh]" id="about">
+            <!-- about -->
+            <div class="bg-white h-[8vh] w-[100%] flex justify-center font-normal text-2xl pt-8">
+                <h1>About Us</h1>
+            </div>
+            <div class="bg-white pb-10 w-[100%] flex justify-center px-10 text-center text-base font-thin">
+                <p class="w-[70%]">DarulCode is an innovative platform that provides programming consultation solutions for individuals and businesses alike. We are dedicated to helping you master essential web design skills in today's digital era. Our team of experts is here to guide you every step of the way, from fundamentals to advanced levels, with a personalized approach to meet your specific needs.</p>
+            </div>
+            <!-- Our Services -->
+             <div class="bg-slate-200 pt-5 pb-5" >
+                <div class="flex-col justify-center">
+                    <!-- header our services -->
+                    <div class=" w-[100%] flex justify-center text-2xl font-normal">
+                        <h1>Our Services</h1>
+                    </div>
+                    <!-- body on our services -->
+                    <div class="flex flex-wrap justify-center gap-5 px-5 pt-10 h-auto">
+                        <div class="h-[25vh] w-full md:w-[25vh] bg-white rounded-lg">
+                            <!-- head on square on services -->
+                            <div class="h-[20%]  w-full flex justify-center pt-2">
+                                 <img src="images/experience.svg" class="h-full">
+                            </div>
+                             <!-- body on square on service -->
+                            <div class=" flex justify-center">
+                                 <h1 class="text-xl font-normal">Experience</h1>
+                            </div>
+                            <div class="flex justify-center pt-2">
+                                <p class="text-justify px-4 ">With years of industry experience, we offer valuable insights and effective strategies.</p>
+                            </div>
+                        </div>
+                        <div class="h-[25vh] w-full md:w-[25vh] bg-white rounded-lg">
+                            <!-- head on squara on services -->
+                            <div class="h-[20%]  w-full flex justify-center pt-2">
+                                <img src="images/aproach.svg" class="h-full">
+                            </div>
+                             <!-- body on square on service -->
+                             <div class=" flex justify-center">
+                                <h1 class="text-xl font-normal">Approach</h1>
+                            </div>
+                            <div class="flex justify-center pt-2">
+                                <p class="text-justify px-4 ">We understand that each client has unique needs. Our team is ready to deliver solutions tailored to your goals.</p>
+                            </div>
+                        </div>
+                        <div class="h-[25vh] w-full md:w-[25vh] bg-white rounded-lg">
+                            <!-- head on squara on services -->
+                            <div class="h-[20%]  w-full flex justify-center pt-2">
+                                <img src="images/result.svg" class="h-full">
+                            </div>
+                             <!-- body on square on service -->
+                             <div class=" flex justify-center">
+                                <h1 class="text-xl font-normal">Result</h1>
+                           </div>
+                           <div class="flex justify-center pt-2">
+                            <p class="text-justify px-4 ">Our clients have successfully reached their goals with our assistance. We’re proud to be a part of their journey.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="flex justify-center mt-10">
+                    <div>
+                        <button type="button" class="rounded-xl h-7 w-44 bg-gradient-to-r from-pink-500 to-[#f8b602] hover:from-teal-400 hover:to-[#3333cc] active:from-teal-500 active:to-[#1a1a75] transition-colors duration-200">
+                            <a href="" class="font-normal text-white">See All Services </a>
+                        </button>
+                    </div>
+                 </div>
+             </div>
+             
+        </article>
+    <section class="h-[100vh] scroll-mt-[10vh]" id="Sponsorships">
+
+    </section>
+    <footer class="h-[20vh] bg-black" id="footer">
+
+    </footer>
+  </body>
+</html>
